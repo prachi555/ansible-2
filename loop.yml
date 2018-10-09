@@ -6,7 +6,7 @@
     apt:
       name: "{{ item }}"
       state: present
-    with_item:
+    with_items:
       - git
       - tree
       - wget
